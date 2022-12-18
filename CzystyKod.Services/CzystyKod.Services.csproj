@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CzystyKod.DAL\CzystyKod.DAL.csproj" />
+    <ProjectReference Include="..\CzystyKod.ViewModels\CzystyKod.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
